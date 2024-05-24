@@ -21,9 +21,6 @@ pid_t pid_B, pid_C;
 //mutex
 pthread_mutex_t counter_mutex;
 
-//bool for counter condition
-bool counter_restart = false;
-
 //word bank
 char *word_bank[4][6] = {
     {"leon", "lona", "agua", "grado", "canguro", "nieve"},
