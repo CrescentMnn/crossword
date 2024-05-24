@@ -13,4 +13,9 @@ The project consists of:
 
 ## Processes and Thread layout
 
+The image below shows how the program is designed, the process B handles all of the board functions, while process C handles all the threads, which are used to
+modify a global variable named ‘counter’ which is ultimately used to change the board. 
+
+Process B’s only function is to call the functions that print, update, and receive the answers for the board and its questions accordingly.
+
 ![image](https://github.com/CrescentMnn/crossword/assets/169625322/26dfb661-1ba6-426c-b9d5-f407b1648367)
