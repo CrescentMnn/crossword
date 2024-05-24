@@ -18,6 +18,4 @@ modify a global variable named ‘counter’ which is ultimately used to change 
 
 Process B’s only function is to call the functions that print, update, and receive the answers for the board and its questions accordingly.
 
-![image](https://github.com/CrescentMnn/crossword/assets/169625322/26dfb661-1ba6-426c-b9d5-f407b1648367)
-
 ![image](https://github.com/CrescentMnn/crossword/assets/169625322/ea7d63ce-2f99-4e0a-91da-d01de115e220)
